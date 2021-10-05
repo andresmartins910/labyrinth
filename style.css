@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(235, 232, 232);
+}
+
+main {
+    width: 434.7px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    /* justify-content: center; */
+}
+
+div {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid white */
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.space {
+    background-color: white;
+}
+
+#player {
+    position: absolute;
+    /* top: 200;
+    left: 200; */
+    z-index: 0;
+    background-color: green;
+    border-radius: 50%;
+}
